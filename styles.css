@@ -63,6 +63,7 @@ h2 {
     flex: 1; /* Takes up 1 part of the flex container */
     background-color: white; /* Ensures the background is white */
     padding: 20 px; /* Adds some spacing inside the left column */
+    border-right: 1px solid;
 }
 
 /* Right column for the publications */
