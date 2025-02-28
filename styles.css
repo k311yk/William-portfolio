@@ -47,17 +47,25 @@ h2 {
     color: rgb(0, 0, 0); 
     text-decoration: none;  
 }
-.homepage {
+/* Container to hold both columns */
+.container {
     display: flex;
-    justify-content: space-between; /* Aligns elements to the start and end edges of the container */
+    min-height: 100vh; /* Full height of the viewport */
 }
 
-.homepage h1, 
-.homepage p {
-    margin: 20px; /* Remove default margin */
+/* Left column for About information */
+.left-column {
+    flex: 1; /* Takes up 1 part of the flex container */
+    background-color: white; /* Ensures the background is white */
+    padding: 20px; /* Adds some spacing inside the left column */
 }
-.column {
-    margin-bottom: 100px;
+
+/* Right column for the publications */
+.right-column {
+    flex: 1; /* Takes up 1 part of the flex container */
+    background-color: white;
+    overflow-y: auto; /* Enables vertical scrolling */
+    padding: 20px; /* Adds some spacing inside the right column */
 }
 a:link {
   color: black; 
