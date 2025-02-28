@@ -35,6 +35,14 @@ p {
     margin-left: 80 px;
     color: black;
 }
+li {
+    text-align: left;
+    font-family: monospace;
+    font-weight: normal;
+    font-size: 17 px;
+    margin-bottom: 20 px;
+    color: black;
+}
 h2 {
     text-align: left;
     font-family: Helvetica, Sans Serif;
@@ -62,7 +70,7 @@ h2 {
     flex: 1; /* Takes up 1 part of the flex container */
     background-color: white;
     overflow-y: auto; /* Enables vertical scrolling */
-    padding: 20 px; /* Adds some spacing inside the right column */
+    padding: 200 px; /* Adds some spacing inside the right column */
 }
 a:link {
   color: black; 
