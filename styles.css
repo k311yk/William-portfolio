@@ -40,7 +40,7 @@ body {background-color: white}
   .topnav .center-link {
     position: absolute;
     left: 50 %; /* Centers the second child */
-    transform: translateX (-50 %); /* Corrects the position to truly center it */
+    transform: translateX(-50%); /* Corrects the position to truly center it */
     font-size: 15 px;
     font-family: Helvetica;
   }
