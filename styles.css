@@ -15,17 +15,18 @@ body {background-color: white}
     overflow: hidden;
     display: flex;
     align-items: center;
-    padding: 0 50px; /* Padding around the navigation content */
+    padding: 0 50 px; /* Padding around the navigation content */
   }
 
   .topnav a, .topnav div {
     text-decoration: none;
-    padding: 17px 25px; /* Uniform padding for alignment and spacing */
+    padding: 17 px 25 px; /* Uniform padding for alignment and spacing */
   }
 
   .topnav div.name {
     flex-grow: 0;
-    font-size: 18px; /* Slightly larger for prominence but aligned */
+    font-family: Helvetica;
+    font-size: 60 px; /* Slightly larger for prominence but aligned */
     font-weight: bold;
     margin-right: auto; /* Ensures the name stays on the left */
   }
@@ -33,10 +34,16 @@ body {background-color: white}
   .topnav a {
     color: black;
     text-align: center;
-    font-size: 15px;
+    font-size: 15 px;
     font-family: Helvetica;
   }
-
+  .topnav .center-link {
+    position: absolute;
+    left: 50 %; /* Centers the second child */
+    transform: translateX (-50 %); /* Corrects the position to truly center it */
+    font-size: 15 px;
+    font-family: Helvetica;
+  }
   .topnav a:last-child {
     margin-left: auto; /* Aligns last item to the right if needed */
   }
