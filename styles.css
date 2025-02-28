@@ -83,10 +83,12 @@ h2 {
     text-align: left;
     font-family: Helvetica, Sans Serif;
     font-weight: normal;
-    font-size: 17 px;
+    font-size: 20 px;
     margin-top: 50 px;
-    color: white; 
-    text-decoration: none;  
+    color: black; 
+    text-decoration: underline;  
+    border-bottom: 1 px solid black;
+}
 }
 /* Container to hold both columns */
 .container {
