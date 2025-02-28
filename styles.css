@@ -18,7 +18,7 @@ body {background-color: white}
   font-size: 15 px;
   font-family: Helvetica;
 }
-header {
+h1 {
     text-align: left;
     font-family: Helvetica;
     font-weight: normal;
@@ -62,8 +62,9 @@ h2 {
 .left-column {
     flex: 1; /* Takes up 1 part of the flex container */
     background-color: white; /* Ensures the background is white */
-    padding: 20 px; /* Adds some spacing inside the left column */
-    border-right: 1px solid;
+    padding: 50 px; /* Adds some spacing inside the left column */
+    border-right: 1 px solid;
+    margin-left: 30 px;
 }
 
 /* Right column for the publications */
@@ -71,7 +72,8 @@ h2 {
     flex: 1; /* Takes up 1 part of the flex container */
     background-color: white;
     overflow-y: auto; /* Enables vertical scrolling */
-    padding: 200 px; /* Adds some spacing inside the right column */
+    padding: 10 px; /* Adds some spacing inside the right column */
+    margin-left: 40 px;
 }
 a:link {
   color: black; 
