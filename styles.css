@@ -1,4 +1,6 @@
 /* General reset for body */
+body {background-color: rgb(255, 255, 255);}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -14,8 +16,13 @@ header {
 }
 
 header h1 {
-    font-family: 'Diatype', sans-serif;
-    font-weight: regular;
+    text-align: left;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 12px;
+     margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 30px;
 }
 
 /* Paragraph styles */
