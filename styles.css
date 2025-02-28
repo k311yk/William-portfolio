@@ -4,20 +4,35 @@
 body {background-color: white}
 
 .topnav {
-  background-color: white;
-  overflow: hidden;
-    margin-right: 50 px;
-}
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: black;
-  text-align: left;
-  padding: 17 px 25 px;
-  text-decoration: none;
-  font-size: 15 px;
-  font-family: Helvetica;
-}
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start; /* Starts children from the left */
+    align-items: center;
+    padding: 0 50 px; /* Padding on the sides of the nav bar */
+  }
+
+  .topnav a {
+    color: black;
+    text-align: center;
+    padding: 17 px 25 px;
+    text-decoration: none;
+    font-size: 15 px;
+    font-family: Helvetica;
+  }
+
+  .topnav a:first-child {
+    margin-right: auto; /* Pushes all other items to the right */
+  }
+
+  .topnav a:nth-child(2) {
+    flex-grow: 1; /* Allows the second item to take available space */
+    text-align: right; /* Aligns the text to the right within its flex item */
+  }
+
+  .topnav a:last-child {
+    margin-left: auto; /* Keeps this item aligned to the right */
+  }
 h1 {
     text-align: left;
     font-family: Helvetica;
