@@ -14,7 +14,7 @@ body {background-color: white}
     background-color: white;
     overflow: hidden;
     position: relative;
-    display: flex;
+    display: fixed;
     height: 60 px;
     align-items: center;
     padding: 0 50 px; /* Padding around the navigation content */
