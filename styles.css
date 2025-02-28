@@ -16,7 +16,7 @@ header {
 }
 p {
     text-align: left;
-    font-family: courier-new;
+    font-family: 'Diatype Mono', monospace;
     font-weight: normal;
     font-size: 17px;
      margin-top: 30px;
@@ -97,6 +97,146 @@ img {
     margin-top: 150px;
 }
 
+footer {
+    font-size: 9px;
+    font-family: Sans-serif; Arial;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Place your CSS styles in this file */
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: rgb(255, 255, 255);}
+
+main {
+    text-align: left;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 12px;
+     margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 30px;
+}
+p {
+    text-align: left;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 17px;
+     margin-top: 30px;
+    margin-left: 80px;
+    color: black;
+}
+h1 {
+    text-align: center;
+    font-family: Helvetica, Sans Serif;
+    font-weight: normal;
+    font-size: 17px;
+    margin-top: 50px;
+    color: rgb(0, 0, 0); 
+    text-decoration: none;  
+}
+.homepage {
+    display: flex;
+    justify-content: space-between; /* Aligns elements to the start and end edges of the container */
+}
+
+.homepage h1, 
+.homepage p {
+    margin: 20px; /* Remove default margin */
+}
+h2 {
+    text-align: left;
+    font-family: Arial, Sans Serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.3;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 30px;
+    font-size: 35px;
+}
+.column {
+    margin-bottom: 100px;
+}
+a:link {
+  color: black; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+.button {
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+h3 {
+  text-align: left;
+    font-family: "Source Sans Pro", Helvetica;
+    font-weight: normal;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 30px;
+    color: rgb(0, 0, 0);  
+}
+h4 {
+    font-family: "Source Sans Pro", Helvetica;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);  
+}
+h5 {
+    font-family: "Source Sans Pro", Helvetica;
+    font-weight: bold;
+    font-size: 70px;
+    margin-left: 100px;
+    margin-top: 70px;
+    color: rgb(0, 0, 0);  
+}
+img {
+    width: 100%; /* Make the image fill its container horizontally */
+    max-width: 350px; /* Limit the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border: none; /* Remove any border */
+    padding: 0; /* Remove any padding */
+    display: block; /* Make sure it doesn't affect other elements' layout */
+    margin: 200px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    gap: 5px; /* Adjust the space between images */
+}
+iframe {
+   margin: 200px;
+    margin-right: 100px;
+    margin-top: 300px;
+    border: none;
+}
+#soccer-video {
+    width: 800px;
+    height: 500px;
+}
+.video-container {
+    flex: 1;
+}
+.text {
+    flex: 1;
+    padding-right: 20px;
+}
 footer {
     font-size: 9px;
     font-family: Sans-serif; Arial;
