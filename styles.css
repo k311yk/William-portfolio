@@ -50,8 +50,8 @@ p {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #FFFFFF;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 /* Footer styles */
