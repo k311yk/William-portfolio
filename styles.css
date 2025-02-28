@@ -39,13 +39,13 @@ body {background-color: white}
   }
   .topnav .center-link {
     position: absolute;
-    left: 50 %; /* Centers the second child */
+    left: 50%; /* Centers the second child */
     transform: translateX(-50%); /* Corrects the position to truly center it */
     font-size: 15 px;
     font-family: Helvetica;
   }
   .topnav a:last-child {
-    margin-left: auto; /* Aligns last item to the right if needed */
+    margin-left: 20 px; /* Aligns last item to the right if needed */
   }
 </style>
 </head>
