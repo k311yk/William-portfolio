@@ -3,36 +3,57 @@
 <style>
 body {background-color: white}
 
-.topnav {
+<title>Custom Navigation Bar</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Consistent font for the page */
+  }
+
+  .topnav {
     background-color: white;
     overflow: hidden;
     display: flex;
-    justify-content: flex-start; /* Starts children from the left */
+    justify-content: flex-start; /* Align items from the left */
     align-items: center;
-    padding: 0 50 px; /* Padding on the sides of the nav bar */
+    padding: 0 50px; /* Padding around the navigation content */
   }
 
-  .topnav a {
+  .topnav a, .topnav div {
     color: black;
     text-align: center;
-    padding: 17 px 25 px;
+    padding: 17px 25px;
     text-decoration: none;
-    font-size: 15 px;
+    font-size: 15px; /* Standard font size for links */
     font-family: Helvetica;
   }
 
-  .topnav a:first-child {
-    margin-right: auto; /* Pushes all other items to the right */
+  .topnav div {
+    flex-grow: 1;
+    font-size: 24px; /* Larger font size for the name */
+    font-weight: bold; /* Bolder font to make the name stand out */
+    text-align: center; /* Center the name */
   }
 
-  .topnav a:nth-child(2) {
-    flex-grow: 1; /* Allows the second item to take available space */
-    text-align: right; /* Aligns the text to the right within its flex item */
+  .topnav a:first-child {
+    margin-right: auto; /* Push all other items to the center and right */
   }
 
   .topnav a:last-child {
-    margin-left: auto; /* Keeps this item aligned to the right */
+    margin-left: auto; /* Align this item to the right */
   }
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <div>WILLIAM JONGWON HAN</div>
+  <a href="information.html">Information</a>
+  <a href="Publications.html">Publications</a>
+</div>
+
+
+
 h1 {
     text-align: left;
     font-family: Helvetica;
