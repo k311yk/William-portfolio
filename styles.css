@@ -119,7 +119,6 @@ h2 {
     background-color: white;
     overflow-y: auto; /* Enables vertical scrolling */
     padding: 10px; /* Adds some spacing inside the right column */
-    margin-left: 40px;
 }
 .right-column li {
   font-family: Helvetica;
