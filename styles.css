@@ -14,9 +14,10 @@ body {background-color: white}
     background-color: white;
     overflow: hidden;
     position: relative;
-    display: fixed;
+    display: flex;
     height: 60 px;
     align-items: center;
+    justify-content: space-between;
     padding: 0 50 px; /* Padding around the navigation content */
   }
 
@@ -38,6 +39,12 @@ body {background-color: white}
     text-align: center;
     font-size: 15 px;
     font-family: Helvetica;
+    padding: 17 px 35 px;
+
+  .container {
+  display: flex;
+  gap: 80 px; /* Adds increased spacing between left and right columns */
+}
     
   .topnav a:last-child {
     margin-left: 20 px; /* Aligns last item to the right if needed */
@@ -112,6 +119,13 @@ h2 {
     overflow-y: auto; /* Enables vertical scrolling */
     padding: 10 px; /* Adds some spacing inside the right column */
     margin-left: 40 px;
+}
+.right-column li {
+  list-style-type: none; /* Removes bullet points */
+  background-color: white; /* Ensures background is white */
+  padding: 15px; /* Adds padding for spacing within rectangle */
+  border-bottom: 1px solid black; /* Adds thin black horizontal lines */
+  margin-bottom: 0; /* Removes default margin */
 }
 a:link {
   color: black; 
