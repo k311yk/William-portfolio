@@ -13,23 +13,22 @@ body {background-color: white}
   .topnav {
     background-color: white;
     overflow: hidden;
-    position: relative;
     display: flex;
-    height: 60 px;
+    height: 60px;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50 px; /* Padding around the navigation content */
+    padding: 0 50px; /* Padding around the navigation content */
   }
 
   .topnav a, .topnav div {
     text-decoration: none;
-    padding: 17 px 25 px; /* Uniform padding for alignment and spacing */
+    padding: 17px 25px; /* Uniform padding for alignment and spacing */
   }
 
   .topnav div.name {
     flex-grow: 0;
     font-family: Helvetica;
-    font-size: 60 px; /* Slightly larger for prominence but aligned */
+    font-size: 60px; /* Slightly larger for prominence but aligned */
     font-weight: bold;
     margin-right: auto; /* Ensures the name stays on the left */
   }
@@ -37,17 +36,17 @@ body {background-color: white}
   .topnav a {
     color: black;
     text-align: center;
-    font-size: 15 px;
+    font-size: 15px;
     font-family: Helvetica;
-    padding: 17 px 35 px;
+    padding: 17px 35px;
 
   .container {
   display: flex;
-  gap: 80 px; /* Adds increased spacing between left and right columns */
+  gap: 80px; /* Adds increased spacing between left and right columns */
 }
     
   .topnav a:last-child {
-    margin-left: 20 px; /* Aligns last item to the right if needed */
+    margin-left: 20px; /* Aligns last item to the right if needed */
   }
 </style>
 </head>
@@ -65,36 +64,36 @@ h1 {
     text-align: left;
     font-family: Helvetica;
     font-weight: normal;
-    font-size: 150 px;
-     margin-top: 10 px;
-    margin-left: 10 px;
+    font-size: 150px;
+     margin-top: 10px;
+    margin-left: 10px;
 }
 p {
     text-align: left;
     font-family: monospace;
     font-weight: normal;
-    font-size: 17 px;
-     margin-top: 30 px;
-    margin-left: 80 px;
+    font-size: 17px;
+     margin-top: 30px;
+    margin-left: 80px;
     color: black;
 }
 li {
     text-align: left;
     font-family: monospace;
     font-weight: normal;
-    font-size: 17 px;
-    margin-bottom: 20 px;
+    font-size: 17px;
+    margin-bottom: 20px;
     color: black;
 }
 h2 {
     text-align: left;
     font-family: Helvetica;
     font-weight: normal;
-    font-size: 20 px;
-    margin-top: 50 px;
+    font-size: 20px;
+    margin-top: 50px;
     color: black; 
     text-decoration: underline;  
-    border-bottom: 1 px solid black;
+    border-bottom: 1px solid black;
 }
 }
 /* Container to hold both columns */
@@ -107,9 +106,9 @@ h2 {
 .left-column {
     flex: 1; /* Takes up 1 part of the flex container */
     background-color: white; /* Ensures the background is white */
-    padding: 50 px; /* Adds some spacing inside the left column */
-    border-right: 1 px solid;
-    margin-left: 30 px;
+    padding: 50px; /* Adds some spacing inside the left column */
+    border-right: 1px solid;
+    margin-left: 30px;
 }
 
 /* Right column for the publications */
@@ -117,8 +116,8 @@ h2 {
     flex: 1; /* Takes up 1 part of the flex container */
     background-color: white;
     overflow-y: auto; /* Enables vertical scrolling */
-    padding: 10 px; /* Adds some spacing inside the right column */
-    margin-left: 40 px;
+    padding: 10px; /* Adds some spacing inside the right column */
+    margin-left: 40px;
 }
 .right-column li {
   list-style-type: none; /* Removes bullet points */
@@ -166,12 +165,12 @@ img {
 }
 
 footer {
-    font-size: 9 px;
+    font-size: 9px;
     font-family: Sans-serif; Arial;
     color: white;
     position: bottom;
     bottom: 0;
     width: 100 %;
     text-align: center;
-    padding: 10 px 0;
+    padding: 10px 0;
 }
