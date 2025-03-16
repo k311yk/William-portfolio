@@ -115,10 +115,13 @@ h2 {
 
 /* Right column for the publications */
 .right-column {
+    font-family: Helvetica;
+    font-size: 17px;
     flex: 1; /* Takes up 1 part of the flex container */
     background-color: white;
     overflow-y: auto; /* Enables vertical scrolling */
-    padding: 10px; /* Adds some spacing inside the right column */
+    padding: 50px; /* Adds some spacing inside the right column */
+    margin-left: 30px;
 }
 .right-column li {
   font-family: Helvetica;
