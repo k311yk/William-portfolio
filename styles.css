@@ -28,9 +28,9 @@ body {background-color: white}
   .topnav div.name {
     flex-grow: 0;
     font-family: Helvetica;
-    font-size: 60px; /* Slightly larger for prominence but aligned */
+    font-size: 15px; /* Slightly larger for prominence but aligned */
     font-weight: bold;
-    margin-right: auto; /* Ensures the name stays on the left */
+    margin-left: auto; /* Ensures the name stays on the left */
   }
 
   .topnav a {
