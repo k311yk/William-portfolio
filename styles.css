@@ -168,6 +168,7 @@ img {
     margin: 200px;
     padding: 50px; /* Adds some spacing inside the left column */
     margin-left: 30px;
+    flex: 1;
 }
 
 footer {
