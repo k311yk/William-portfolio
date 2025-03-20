@@ -131,6 +131,8 @@ h2 {
     overflow-y: auto; /* Enables vertical scrolling */
     padding: 70px; /* Adds some spacing inside the right column */
     margin-left: 80px;
+    flex: 1; /* Takes up 1 part of the flex container */
+    position: relative;
 }
 .right-column li {
   font-family: Helvetica;
