@@ -139,8 +139,7 @@ h2 {
   padding: 15px; /* Adds padding for spacing within rectangle */
   border-bottom: 1px solid black; /* Adds thin black horizontal lines */
   margin-bottom: 0; /* Removes default margin */
-  margin-left: 20px;
-  margin-right: 10px;
+  padding-right: 70px;
 }
 a:link {
   color: black; 
