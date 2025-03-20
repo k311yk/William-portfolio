@@ -109,6 +109,7 @@ h2 {
     flex: 1; /* Takes up 1 part of the flex container */
     background-color: white; /* Ensures the background is white */
     padding: 50px; /* Adds some spacing inside the left column */
+    padding-right: 70px;
     margin-left: 30px;
     position: relative;
 }
@@ -129,7 +130,7 @@ h2 {
     background-color: white;
     overflow-y: auto; /* Enables vertical scrolling */
     padding: 70px; /* Adds some spacing inside the right column */
-    margin-left: 60px;
+    margin-left: 80px;
 }
 .right-column li {
   font-family: Helvetica;
@@ -139,8 +140,10 @@ h2 {
   padding: 15px; /* Adds padding for spacing within rectangle */
   border-bottom: 1px solid black; /* Adds thin black horizontal lines */
   margin-bottom: 0; /* Removes default margin */
-  margin-right: 30px;
   padding-right: 70px;
+}
+.publication-item {
+    margin-bottom: 30px; /* Adjust as desired */
 }
 
 a:link {
