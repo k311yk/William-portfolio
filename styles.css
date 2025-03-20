@@ -142,46 +142,6 @@ h2 {
   margin-right: 30px;
   padding-right: 70px;
 }
-.publication-list {
-    list-style: none;
-    padding: 0;
-}
-
-.publication-item {
-    position: relative;
-    margin-bottom: 25px;
-    font-size: 17px;
-    line-height: 1.4;
-}
-
-.publication-item a {
-    text-decoration: none;       /* removes underline */
-    color: inherit;              /* maintains text color */
-    cursor: pointer;
-}
-
-.link-preview {
-    display: none;
-    position: absolute;
-    top: 100%; 
-    left: 0;
-    width: 500px;
-    height: 300px;
-    border: 1px solid #ccc;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    z-index: 10;
-}
-
-.link-preview iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-
-.publication-item:hover .link-preview {
-    display: block;
-}
 
 a:link {
   color: black; 
