@@ -167,19 +167,6 @@ h3 {
     color: white;  
 }
 
-IMG_4189.jpg {
-    width: 100%; /* Make the image fill its container horizontally */
-    max-width: 350px; /* Limit the maximum width of the image */
-    height: auto; /* Maintain aspect ratio */
-    border: none; /* Remove any border */
-    padding: 0; /* Remove any padding */
-    display: block; /* Make sure it doesn't affect other elements' layout */
-    margin: 200px;
-    padding: 50px; /* Adds some spacing inside the left column */
-    margin-left: 30px;
-    flex: 1;
-}
-
 footer {
     font-size: 9px;
     font-family: Sans-serif; Arial;
