@@ -131,7 +131,6 @@ h2 {
     background-color: white;
     overflow-y: auto; /* Enables vertical scrolling */
     padding: 50px; /* Adds some spacing inside the right column */
-    margin-left: 30px;
 }
 .right-column li {
   font-family: Helvetica;
@@ -141,6 +140,7 @@ h2 {
   padding: 15px; /* Adds padding for spacing within rectangle */
   border-bottom: 1px solid black; /* Adds thin black horizontal lines */
   margin-bottom: 0; /* Removes default margin */
+  margin-left: 20px;
 }
 a:link {
   color: black; 
