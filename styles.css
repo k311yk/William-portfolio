@@ -140,6 +140,7 @@ h2 {
   border-bottom: 1px solid black; /* Adds thin black horizontal lines */
   margin-bottom: 0; /* Removes default margin */
   margin-left: 20px;
+  margin-right: 10px;
 }
 a:link {
   color: black; 
