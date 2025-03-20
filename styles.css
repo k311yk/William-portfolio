@@ -129,7 +129,7 @@ h2 {
     font-size: 17px;
     background-color: white;
     overflow-y: auto; /* Enables vertical scrolling */
-    padding: 70px; /* Adds some spacing inside the right column */
+    padding: 70px 70px 70px 30px;
     margin-left: 80px;
     flex: 1; /* Takes up 1 part of the flex container */
     position: relative;
@@ -139,7 +139,6 @@ h2 {
   font-size: 17px;
   list-style-type: none; /* Removes bullet points */
   background-color: white; /* Ensures background is white */
-  padding: 15px; /* Adds padding for spacing within rectangle */
   border-bottom: 1px solid black; /* Adds thin black horizontal lines */
   margin-bottom: 0; /* Removes default margin */
   padding-right: 70px;
