@@ -139,7 +139,14 @@ h2 {
 .publication-item {
     margin-bottom: 30px; /* Adjust as desired */
 }
-
+.publication-item li {
+  font-family: Helvetica;
+  font-size: 17px;
+  list-style-type: none; /* Removes bullet points */
+  background-color: white; /* Ensures background is white */
+  border-bottom: 1px solid black; /* Adds thin black horizontal lines */
+  margin-bottom: 0; /* Removes default margin */
+}
 a:link {
   color: black; 
   background-color: transparent; 
