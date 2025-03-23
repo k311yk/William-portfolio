@@ -138,23 +138,21 @@ h2 {
 .publication-item {
     margin-bottom: 30px; /* Adjust as desired */
 }
-.publication-item li {
-  font-family: Helvetica;
-  font-size: 17px;
-  list-style-type: none; /* Removes bullet points */
-  background-color: white; /* Ensures background is white */
-  border-bottom: 1px solid black; /* Adds thin black horizontal lines */
-  margin-bottom: 0; /* Removes default margin */
+.full-publications .publication-item {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    padding: 15px 0; /* Vertical spacing */
+    margin-right: 70px; /* Preserve right spacing */
+    line-height: 1.5; /* Improve readability */
 }
-.full-publications {
-    font-family: Helvetica;
-  font-size: 17px;
-  list-style-type: none;
-  background-color: white;
-  border-bottom: 1px solid black;
-  margin-bottom: 0;
-  padding: 15px 70px 15px 0;
+.full-publications .publication-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
 }
+
 a:link {
   color: black; 
   background-color: transparent; 
