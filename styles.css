@@ -34,7 +34,7 @@ body {
 
   .container {
   display: flex;
-  gap: 80px; /* Adds increased spacing between left and right columns */
+  gap: 30px;
 }
     
   .topnav a:last-child {
