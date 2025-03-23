@@ -136,7 +136,9 @@ h2 {
   margin-bottom: 0; /* Removes default margin */
   padding: 15px 70px 15px 0;
 }
-
+#services, #contact {
+    margin-left: 30px;
+}
 .publication-item {
     margin-bottom: 30px; /* Adjust as desired */
 }
