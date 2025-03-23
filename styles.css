@@ -114,7 +114,12 @@ h2 {
     height: calc(100% - 100px); /* matches top offset */
   
 }
-
+.left-column, .right-column {
+    flex: 1; /* Splits columns evenly */
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
 /* Right column for the publications */
 .right-column {
     font-family: Helvetica;
@@ -189,7 +194,7 @@ h3 {
 footer {
     font-size: 9px;
     font-family: Sans-serif; Arial;
-    color: white;
+    color: black;
     position: bottom;
     bottom: 0;
     width: 100%;
