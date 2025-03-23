@@ -147,6 +147,7 @@ h2 {
     font-size: 17px;
     background-color: white;
     border-bottom: 1px solid black;
+    border-top: 1px solid black;
     padding: 15px 0; /* Vertical spacing */
     margin-right: 70px; /* Preserve right spacing */
     line-height: 1.5; /* Improve readability */
@@ -155,11 +156,8 @@ h2 {
     list-style-type: none; /* Remove bullet points */
     padding: 0;
     margin: 0;
-    border-top: 1px solid black;
 }
-.full-publications .publication-item:first-child {
-    padding-top: 10px; /* Adjust this value to match the header margin-bottom exactly */
-}
+
 a:link {
   color: black; 
   background-color: transparent; 
