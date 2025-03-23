@@ -133,7 +133,7 @@ h2 {
   background-color: white; /* Ensures background is white */
   border-bottom: 1px solid black; /* Adds thin black horizontal lines */
   margin-bottom: 0; /* Removes default margin */
-  padding-right: 70px;
+  padding: 15px 70px 15px 0;
 }
 .publication-item {
     margin-bottom: 30px; /* Adjust as desired */
