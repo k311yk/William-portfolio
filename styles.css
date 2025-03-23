@@ -136,16 +136,7 @@ h2 {
   margin-bottom: 0; /* Removes default margin */
   padding: 15px 70px 15px 0;
 }
-.info-right-column {
-    font-family: Helvetica;
-    font-size: 17px;
-    background-color: white;
-    overflow-y: auto; /* Enables vertical scrolling */
-    margin-left: 20px;
-    padding: 70px 30px 70px 30px;
-    flex: 1; /* Takes up 1 part of the flex container */
-    position: relative;
-}
+
 .publication-item {
     margin-bottom: 30px; /* Adjust as desired */
 }
