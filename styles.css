@@ -135,6 +135,13 @@ h2 {
   margin-bottom: 0; /* Removes default margin */
   padding: 15px 70px 15px 0;
 }
+.info-right-column {
+    width: 45%;             
+    padding: 20px;
+    margin-left: auto;  
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
 .publication-item {
     margin-bottom: 30px; /* Adjust as desired */
 }
