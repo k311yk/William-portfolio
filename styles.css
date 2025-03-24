@@ -140,7 +140,7 @@ h2 {
     margin-left: 30px;
 }
 .publication-item {
-    margin-bottom: 30px; /* Adjust as desired */
+    margin-bottom: 0px; /* Adjust as desired */
 }
 .full-publications .publication-item {
     font-family: Helvetica, Arial, sans-serif;
@@ -149,7 +149,8 @@ h2 {
     border-bottom: 1px solid black;
     padding: 15px 0; /* Vertical spacing */
     margin-right: 70px; /* Preserve right spacing */
-    line-height: 1.5; /* Improve readability */
+    margin-bottom: 0px;
+    line-height: 1; /* Improve readability */
 }
 .full-publications .publication-list {
     list-style-type: none; /* Remove bullet points */
