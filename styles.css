@@ -140,7 +140,7 @@ h2 {
     margin-left: 30px;
 }
 .publication-item {
-    margin-bottom: 0px; /* Adjust as desired */
+    margin-bottom: 0;
 }
 .full-publications .publication-item {
     font-family: Helvetica, Arial, sans-serif;
