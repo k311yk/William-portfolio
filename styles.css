@@ -32,119 +32,117 @@ body {
     font-family: Helvetica;
     padding: 17px 35px;
   }
+/* Global container for columns */
 .container {
   display: flex;
   flex-wrap: wrap;
   min-height: 100vh;
 }
-    
-  .topnav a:last-child {
-    margin-left: 20px; /* Aligns last item to the right if needed */
-  }
-</style>
-</head>
-<body>
-<div class="topnav">
-  <div class="name">WILLIAM JONGWON HAN</div>
-  <a href="index.html">Home</a>
-  <a href="information.html">Information</a>
-  <a href="Publications.html">Publications</a>
-</div>
 
+/* Top Navigation */
+.topnav a:last-child {
+  margin-left: 20px; /* Aligns last nav item to the right */
+}
 
-
+/* Headings */
 h1 {
-    text-align: left;
-    font-family: Helvetica;
-    font-weight: normal;
-    text-decoration: none;
-    font-size: 150px;
-     margin-top: 10px;
-    margin-left: 10px;
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
-p {
-    text-align: left;
-    font-family: monospace;
-    font-weight: normal;
-    font-size: 17px;
-     margin-top: 30px;
-    margin-left: 80px;
-    color: black;
-}
-li {
-    text-align: left;
-    font-family: monospace;
-    font-weight: normal;
-    font-size: 17px;
-    margin-bottom: 20px;
-    color: black;
-}
+
 h2 {
-    text-align: left;
-    font-family: Helvetica;
-    font-weight: normal;
-    font-size: 20px;
-    margin-top: 50px;
-    color: black; 
-    text-decoration: underline;  
-    border-bottom: 1px solid black;
-}
-/* Container to hold both columns */
-.container {
-    display: flex;
-    min-height: 100 vh; /* Full height of the viewport */
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 50px;
+  color: black;
+  text-decoration: underline;
+  border-bottom: 1px solid black;
 }
 
+h3 {
+  text-align: left;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 11px;
+  margin-top: 10px;
+  margin-left: 70px;
+  margin-right: 30px;
+  color: white;
+}
 
+/* Paragraphs */
+p {
+  text-align: left;
+  font-family: monospace;
+  font-weight: normal;
+  font-size: 17px;
+  margin-top: 30px;
+  margin-left: 80px;
+  color: black;
+}
+
+/* List Items */
+li {
+  text-align: left;
+  font-family: monospace;
+  font-weight: normal;
+  font-size: 17px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+/* Publication List Styling */
 .full-publications .publication-item {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 17px;
-    background-color: white;
-    border-bottom: 1px solid black;
-    padding: 15px 0; /* Vertical spacing */
-    margin-right: 70px; /* Preserve right spacing */
-    margin-bottom: 0px;
-    line-height: 1; /* Improve readability */
-}
-.full-publications .publication-list {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0;
-    margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  background-color: white;
+  border-bottom: 1px solid black;
+  padding: 15px 0; /* Vertical spacing */
+  margin-right: 70px; /* Right spacing */
+  margin-bottom: 0;
+  line-height: 1;
 }
 
+.full-publications .publication-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+/* Links */
 a:link {
-  color: black; 
-  background-color: transparent; 
+  color: black;
+  background-color: transparent;
   text-decoration: none;
 }
+
+/* Button */
 .button {
   background-color: white;
   border: none;
   color: white;
-  padding: 15 px 32 px;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16 px;
-}
-h3 {
-  text-align: left;
-    font-family: "Source Sans Pro", Helvetica;
-    font-weight: normal;
-    font-size: 11px;
-    margin-top: 10px;
-    margin-left: 70px;
-    margin-right: 30px;
-    color: white;  
+  font-size: 16px;
 }
 
+/* Footer */
 footer {
-    font-size: 9px;
-    font-family: Sans-serif; Arial;
-    color: black;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
+  font-size: 9px;
+  font-family: Arial, sans-serif;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
 }
