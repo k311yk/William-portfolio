@@ -32,9 +32,10 @@ body {
     font-family: Helvetica;
     padding: 17px 35px;
   }
-  .container {
+.container {
   display: flex;
-    flex-wrap: wrap:
+  flex-wrap: wrap;
+  min-height: 100vh;
 }
     
   .topnav a:last-child {
@@ -87,7 +88,6 @@ h2 {
     text-decoration: underline;  
     border-bottom: 1px solid black;
 }
-}
 /* Container to hold both columns */
 .container {
     display: flex;
@@ -134,7 +134,7 @@ h2 {
   background-color: white; /* Ensures background is white */
   border-bottom: 1px solid black; /* Adds thin black horizontal lines */
   margin-bottom: 0; /* Removes default margin */
-  padding: 15px 70px 15px 0;
+  padding: 15px 30px 15px 0;
 }
 .left-column, .right-column {
     flex: 1;
@@ -192,7 +192,7 @@ footer {
     font-size: 9px;
     font-family: Sans-serif; Arial;
     color: black;
-    position: bottom;
+    position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
