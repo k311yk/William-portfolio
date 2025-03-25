@@ -34,7 +34,7 @@ body {
   }
   .container {
   display: flex;
-  gap: 30px;
+    flex-wrap: wrap:
 }
     
   .topnav a:last-child {
@@ -136,8 +136,12 @@ h2 {
   margin-bottom: 0; /* Removes default margin */
   padding: 15px 70px 15px 0;
 }
-#services, #contact {
-    margin-left: 30px;
+.left-column, .right-column {
+    flex: 1;
+    min-width: 300px; /* Adjust based on your content */
+}
+#contact {
+    margin-left: 50px;
 }
 .right-column .publication-item {
     margin-bottom: 0;
