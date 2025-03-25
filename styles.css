@@ -96,57 +96,6 @@ h2 {
 }
 
 
-/* Left column for About information */
-.left-column {
-    font-family: Helvetica;
-    font-size: 17px;
-    flex: 1; /* Takes up 1 part of the flex container */
-    background-color: white; /* Ensures the background is white */
-    padding: 50px; /* Adds some spacing inside the left column */
-    padding-right: 70px;
-    margin-left: 0px;
-    position: relative;
-}
-
-.left-column::after {
-    content: "";
-    position: absolute;
-    top: 80px; /* adjust this value to move the border vertically */
-    right: 0;
-    height: calc(100% - 100px); /* matches top offset */
-  
-}
-/* Right column for the publications */
-.right-column {
-    font-family: Helvetica;
-    font-size: 17px;
-    background-color: white;
-    overflow-y: auto; /* Enables vertical scrolling */
-    margin-left: 20px;
-    padding: 30px;
-    flex: 1; /* Takes up 1 part of the flex container */
-    position: relative;
-}
-
-.right-column li {
-  font-family: Helvetica;
-  font-size: 17px;
-  list-style-type: none; /* Removes bullet points */
-  background-color: white; /* Ensures background is white */
-  border-bottom: 1px solid black; /* Adds thin black horizontal lines */
-  margin-bottom: 0; /* Removes default margin */
-  padding: 15px 30px 15px 0;
-}
-.left-column,
-.right-column {
-  width: 50%;
-  box-sizing: border-box;
-  padding: 30px; /* Adjust inner spacing as needed */
-}
-#contact {
-    margin-left: 50px;
-}
-
 .full-publications .publication-item {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 17px;
