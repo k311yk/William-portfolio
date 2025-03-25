@@ -50,9 +50,9 @@ h1 {
   font-family: Helvetica, sans-serif;
   font-weight: normal;
   text-decoration: none;
-  font-size: 150px;
+  font-size: 100px;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 50px;
 }
 
 h2 {
@@ -99,7 +99,7 @@ li {
 }
 .column {
   width: 50%;
-  padding: 20px; /* adjust internal padding as needed */
+  padding: 50px; /* adjust internal padding as needed */
   box-sizing: border-box;
 }
 
