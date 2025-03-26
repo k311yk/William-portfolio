@@ -68,13 +68,12 @@ h2 {
 
 h3 {
   text-align: left;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 11px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
   margin-top: 10px;
-  margin-left: 70px;
-  margin-right: 30px;
-  color: white;
+  color: black;
+  text-decoration: none;
 }
 
 /* Paragraphs */
