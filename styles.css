@@ -101,6 +101,23 @@ li {
   padding: 50px; /* adjust internal padding as needed */
   box-sizing: border-box;
 }
+.publication-item {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 50px;  /* Sets left/right margins, matching your nav's left padding */
+  padding: 15px 0;
+  border-bottom: 1px solid black;
+}
+
+.publication-item img {
+  width: 60px;      /* Adjust size as needed */
+  height: auto;
+  margin-right: 15px; /* Spacing between image and text */
+}
+
+.publication-item .pub-info {
+  flex: 1; /* Allows the publication text to take the remaining space */
+}
 
 /* Publication List Styling */
 .full-publications .publication-item {
