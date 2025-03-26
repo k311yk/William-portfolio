@@ -57,12 +57,12 @@ h1 {
 
 h2 {
   text-align: left;
-  font-family: Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 20px;
-  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 10px;
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
   border-bottom: 1px solid black;
 }
 
