@@ -101,7 +101,7 @@ li {
   padding: 50px; /* adjust internal padding as needed */
   box-sizing: border-box;
 }
-.publication-item {
+.selected-publications .publication-item {
   display: flex;
   align-items: flex-start;
   margin: 0 50px;  /* Sets left/right margins, matching your nav's left padding */
@@ -109,13 +109,13 @@ li {
   border-bottom: 1px solid black;
 }
 
-.publication-item img {
+.selected-publications .publication-item img {
   width: 90px;      /* Adjust size as needed */
   height: auto;
   margin-right: 15px; /* Spacing between image and text */
 }
 
-.publication-item .pub-info {
+.selected-publications .publication-item .pub-info {
   flex: 1; /* Allows the publication text to take the remaining space */
 }
 
@@ -126,8 +126,7 @@ li {
   background-color: white;
   border-bottom: 1px solid black;
   padding: 15px 0; /* Vertical spacing */
-  margin-right: 70px; /* Right spacing */
-  margin-bottom: 0;
+  margin: 0 50px;  /* Sets left/right margins, matching your nav's left padding */
   line-height: 1;
 }
 
