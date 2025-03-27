@@ -107,6 +107,11 @@ li {
   padding: 15px 0;
   border-bottom: 1px solid black;
 }
+.publications-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .selected-publications .publication-item img {
   width: 90px;      /* Adjust size as needed */
