@@ -169,7 +169,7 @@ footer {
   font-size: 9px;
   font-family: Arial, sans-serif;
   color: black;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   text-align: center;
