@@ -74,6 +74,7 @@ h3 {
   margin-top: 10px;
   color: black;
   text-decoration: none;
+    line-height: 30px;
 }
 
 /* Paragraphs */
@@ -112,9 +113,11 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-
+.publications-header img {
+  margin-right: 50px;
+}
 .selected-publications .publication-item img {
-  width: 90px;      /* Adjust size as needed */
+  width: 140px;      /* Adjust size as needed */
   height: auto;
   margin-right: 15px; /* Spacing between image and text */
 }
