@@ -195,7 +195,10 @@ footer {
     padding: 10px 10px;
   }
   .topnav div.name {
-    font-size: 14px;
+    order: -1;      /* Moves the name above the other items */
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px; /* Optional: adds spacing below the name */
   }
   h1 {
     font-size: 60px;
@@ -219,7 +222,7 @@ footer {
   }
   .column {
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     margin-top: 10px;
   }
   .selected-publications .publication-item,
@@ -229,6 +232,6 @@ footer {
   }
   .publications-header img {
     margin-right: 10px;
-    width: 80px; /* Smaller image size */
+    width: 70px; /* Smaller image size */
   }
 }
