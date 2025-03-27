@@ -95,6 +95,7 @@ li {
   font-size: 17px;
   margin-bottom: 20px;
   color: black;
+    line-height: 30px;
 }
 .column {
   width: 50%;
